@@ -1,0 +1,70 @@
+.wrapper {
+  width: 60%;
+  height: 70vh;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  border-radius: 25px;
+  overflow: hidden;
+
+  // LOGO ////////////////////
+  .logo {
+    background: white;
+    background-size: cover;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 50%;
+    }
+  }
+  // FORMULARIO ///////////////
+  @import "./form.scss";
+}
+.cover-steps {
+  width: 90%;
+  margin-left: 20px;
+  height: 25px;
+  margin-bottom: 10px;
+
+  color: white;
+  display: flex;
+  .steps {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+
+      // border: 2px solid $green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.bar {
+  width: 90%;
+  margin-left: 20px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid $green;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  .fill-bar {
+    background-color: $green;
+    border-radius: 20px 0px 0px 20px;
+    height: 70%;
+    width: 20%;
+    margin: 4px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,92 @@
+@media (max-width: 1500px) {
+  .container {
+    .wrapper {
+      .input {
+        h1 {
+          font-size: 20px;
+        }
+        form {
+          label {
+            font-size: 14px;
+          }
+          input {
+            font-size: 13px;
+          }
+          button {
+            font-size: 20px;
+          }
+          .post-input {
+            a {
+              font-size: 15px;
+            }
+          }
+        }
+        .post-button {
+          a {
+            font-size: 15px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    background: linear-gradient(
+        180deg,
+        rgba(56, 133, 201, 0.5),
+        rgba(56, 133, 201, 0.5)
+      ),
+      url("../../../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .wrapper {
+      width: 80%;
+      height: 80vh;
+      .logo {
+        width: 50%;
+      }
+      .input {
+        width: 50%;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    .wrapper {
+      display: block;
+      .logo {
+        display: none;
+      }
+      .input {
+        width: 100%;
+        height: 100%;
+        img {
+          display: block;
+          width: 80%;
+          align-self: center;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    .wrapper {
+      width: 100%;
+      border-radius: 0px;
+      height: 100%;
+      .input {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
